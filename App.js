@@ -5,6 +5,7 @@ import Row from "./App/components/Row";
 import Button from "./App/components/Button";
 import calculator, { initialState } from "./App/util/calculator";
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -12,7 +13,7 @@ const styles = StyleSheet.create({
     justifyContent: "flex-end"
   },
   value: {
-    color: "#fff",
+    color: "#ffe",
     fontSize: 40,
     textAlign: "right",
     marginRight: 20,
